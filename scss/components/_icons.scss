@@ -1,0 +1,13 @@
+.icon {
+  &__link {
+    text-decoration: none;
+    svg {
+      width: 32px;
+      height: 32px;
+      circle + path {
+        width: 16px !important;
+        height: 16px !important;
+      }
+    }
+  }
+}

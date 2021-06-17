@@ -1,0 +1,20 @@
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media only screen and (max-width: 768px) {
+    max-width: 98%;
+  }
+}
+.o-container {
+  width: 100%;
+  max-width: 88.88889%;
+  padding-left: 6.66667%;
+  padding-right: 6.66667%;
+  float: right;
+
+  @media (max-width: 1140px) {
+    max-width: 100%;
+  }
+}

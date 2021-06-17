@@ -1,0 +1,50 @@
+:root {
+  --unit: 10px;
+
+  --size-xs: 12px;
+  --size-s: 14px;
+  --size-m: 16px;
+  --size-l: 24px;
+  --size-xl: 32px;
+  --size-2xl: 48px;
+
+  --span-xs: var(--unit);
+  --span-s: calc(var(--unit) * 2);
+  --span-m: calc(var(--unit) * 3);
+  --span-l: calc(var(--unit) * 4);
+  --span-xl: calc(var(--unit) * 5);
+  --span-2xl: calc(var(--unit) * 6);
+
+  ///font families
+
+  --family: "Montserrat", sans-serif;
+  --family--2: "Raleway", sans-serif;
+
+  //colors
+
+  --dark: #000000;
+  --black: #1a1a1a;
+  --white: #ffffff;
+  --text-white: #fdfdfd;
+  --text-green: #23eaba;
+  --btn--text--black: #131313;
+  --green: #23eaba;
+  --purple: #d9a9f9;
+  --icon-black: #111111;
+  --icon-green: #23eaba;
+  --icon-purple: #5a2180;
+  --what-we-do-black: #1c1c1c;
+  --testimonial-purple: #5a2180;
+  --interested-in-bg: #ebedf0;
+  --view-work-text-green: #00ffe0;
+
+  //weights
+
+  --weight-xsm: 300;
+  --weight-sm: 400;
+  --weight-md: 500;
+  --weight-lg: 600;
+  --weight-xlg: 700;
+  --weight-xxlg: 800;
+  --weight-2xxlg: 900;
+}

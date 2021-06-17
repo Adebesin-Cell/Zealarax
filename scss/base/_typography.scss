@@ -1,0 +1,104 @@
+body {
+  font-family: var(--family), var(--family--2);
+  font-style: normal;
+}
+::selection {
+  background: var(--text-green);
+  color: var(--white);
+}
+
+//h1 main heading general styles
+.heading-primary {
+  margin-top: var(--span-2xl);
+  font-family: var(--family);
+  font-size: 80px;
+  font-weight: var(--weight-xlg);
+  line-height: 82px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  @media only screen and (max-width: 1200px) {
+    font-size: calc(var(--size-2xl) + var(--size-xs));
+    line-height: 70px;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: calc(var(--size-2xl) + 2px);
+    line-height: 52px;
+    margin-top: 0;
+    padding-top: 80px;
+  }
+  //about page heading pattern
+  &__list {
+    list-style-type: none;
+    @media only screen and (max-width: 1200px) {
+      font-size: calc(var(--size-2xl) + var(--size-xs));
+      line-height: 70px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: calc(var(--size-2xl) + 2px);
+      line-height: 52px;
+      margin-top: 0;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 33px;
+      line-height: 39px;
+      font-weight: var(--weight-xxlg);
+    }
+  }
+  &__item {
+    color: var(--white);
+    &--green {
+      color: var(--text-green);
+    }
+  }
+  //about page heading pattern ends here
+
+  //homepage heading subs
+  &--sub {
+    display: block;
+    &--1 {
+      color: var(--text-white);
+    }
+    &--2 {
+      color: var(--text-green);
+    }
+    &--3 {
+      color: var(--text-white);
+    }
+    &--4 {
+      color: var(--text-green);
+    }
+  }
+
+  //modifier class presnt in career main heading
+  &--green {
+    color: var(--text-green);
+  }
+  &--center {
+    text-align: center;
+  }
+}
+
+.header__paragraph {
+  font-family: var(--family);
+  font-size: calc(var(--size-m) + 2px);
+  font-weight: var(--weight-xlg);
+  line-height: 30px;
+  letter-spacing: -0.035em;
+  color: var(--white);
+  text-align: left;
+}
+//career paragraph styles
+.career__paragraph {
+  font-family: var(--family--2);
+  font-weight: var(--weight-md);
+  font-size: 37px;
+  line-height: 46px;
+  color: var(--white);
+  letter-spacing: -0.035em;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  max-width: 970px;
+  margin: 0 auto;
+}
