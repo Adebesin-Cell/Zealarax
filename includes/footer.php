@@ -47,7 +47,7 @@
                             </a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a href="#" class="footer__navigation__link" name="What we do" aria-label="What we do">
+                            <a href="what-we-do.php" class="footer__navigation__link" name="What we do" aria-label="What we do">
                                 <span>
                                     What we do
                                 </span>
@@ -61,7 +61,7 @@
                             </a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a href="#" class="footer__navigation__link" name="Blog" aria-label="Blog">
+                            <a href="blog.php" class="footer__navigation__link" name="Blog" aria-label="Blog">
                                 <span>
                                     Blog
                                 </span>
@@ -75,21 +75,21 @@
                             </a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a href="#" class="footer__navigation__link" name="Our Work" aria-label="Our Work">
+                            <a href="work.php" class="footer__navigation__link" name="Our Work" aria-label="Our Work">
                                 <span>
                                     Our Work
                                 </span>
                             </a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a href="#" class="footer__navigation__link" name="Contact" aria-label="Contact">
+                            <a href="contact.php" class="footer__navigation__link" name="Contact" aria-label="Contact">
                                 <span>
                                     Contact
                                 </span>
                             </a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a href="#" class="footer__navigation__link" name="Legal Information" aria-label="Legal Information">
+                            <a href="legal-information.php" class="footer__navigation__link" name="Legal Information" aria-label="Legal Information">
                                 <span>
                                     Legal Information
                                 </span>
@@ -220,6 +220,72 @@
             </div>
         </div>
     </footer>
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/jquery.mousewheel.min.js"></script>
+    <script src="assets/owl.carousel.min.js"></script>
     <script src="Js/App.Js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                nav: true,
+                dots: false,
+                margin:20,
+                responsive: {
+                    0: {
+                        items: 1,
+                        items: 1.5,
+                        autoplay: true,
+                        autoplayTimeout: 1500,
+                        autoplayHoverPause: true
+                    },
+                    300:{
+                        items: 1,
+                        autoplay: true,
+                        autoplayTimeout: 2000,
+                        autoplayHoverPause: true
+                    },
+                    600: {
+                        items: 1.5,
+                        autoplay: true,
+                        autoplayTimeout: 1000,
+                        autoplayHoverPause: true
+                    },
+                    960: {
+                    items: 2,
+                    },
+                    1200: {
+                    items: 3,
+                    }
+                },
+            });
+            owl.on('DOMMouseScroll','.owl-stage',function(e){
+                if (e.originalEvent.detail > 0){ 
+                    owl.trigger('next.owl');
+                } else {
+                    owl.trigger('prev.owl');
+                }
+                e.preventDefault();
+            });
+            owl.on('mousewheel','.owl-stage',function(e){
+                if (e.originalEvent.wheelDelta > 0){
+                    owl.trigger('next.owl');
+                } else {
+                    owl.trigger('prev.owl');
+                }
+                e.preventDefault();
+            });
+            owl.on('mousewheel', '.owl-stage', function (e) {
+                if (e.deltaY > 0) {
+                    owl.trigger('next.owl');
+                } else {
+                    owl.trigger('prev.owl');
+                }
+                e.preventDefault();
+            });
+        });      
+    </script>
 </body>
 </html>

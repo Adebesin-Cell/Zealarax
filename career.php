@@ -230,9 +230,270 @@
         </div>
     </section>
     <!-- our selection process stage section ends here -->
+    <!-- students section starts here -->
+    <section class="section-students">
+        <div class="container">
+            <div class="our-students">
+                <h1 class="our-students__header">
+                    Students
+                </h1>
+                <p class="our-students__paragraph">
+                    At Zealarax, learning and creating progress every day is a way of life. 
+                    This is why the student community fits perfectly with all our teams. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim incidunt odit, quasi iure, accusamus, deleniti possimus cupiditate qui numquam voluptatibus facilis maiores neque veniam in sint eligendi tempora recusandae! Cumque accusamus repudiandae perferendis laudantium rem velit rerum vero, beatae nostrum! Eveniet vero nisi omnis ducimus quas a atque corrupti neque!
+                </p>
+                <div class="our-students__wrapper">
+                    <div class="our-students__image-box">
+                        <img src="assets/images/students.png" alt="Zealarax students" class="our-students__image">
+                    </div>
+                    <div class="our-students__content">
+                        <div class="our-students__text">
+                            <h1 class="our-students__text__header">
+                                Student Jobs
+                            </h1>
+                            <p class="our-students__text__paragraph">
+                                We offer part-time jobs because we integrate students into our team for the long run. Many of them have, and will become our full-time employees.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur at temporibus consectetur saepe beatae veritatis ullam. Amet incidunt esse provident. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat dicta esse blanditiis impedit doloremque, nesciunt, ducimus, sequi beatae consequatur sed tenetur cupiditate ipsa ut a ex deserunt vel. Natus assumenda nihil cumque quo, quam dolore sunt incidunt? Voluptatibus quasi nulla molestiae libero, voluptatum esse vero iure dolorum! Rem, architecto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-students-gain">
+        <div class="container">
+            <div class="students-gain">
+                <h1 class="students-gain__header">
+                    Working as a student in
+                    Zealarax means that you will:
+                </h1>
+                <div class="students-gain__wrapper">
+                    <div class="students-gain__list">
+                        <div class="students-gain__item">
+                            <h1 class="students-gain__item__header">
+                                Be a part of an amazing team
+                            </h1>
+                            <p class="students-gain__item__paragraph">
+                                Work and hang out with friendly and open-minded people.
+                            </p>
+                        </div>
+                        <div class="students-gain__item">
+                            <h1 class="students-gain__item__header">
+                                Advance in your field
+                            </h1>
+                            <p class="students-gain__item__paragraph">
+                                Learn and get support from professionals in the field of your interest.
+                            </p>
+                        </div>
+                        <div class="students-gain__item">
+                            <h1 class="students-gain__item__header">
+                                Have flexible working hours
+                            </h1>
+                            <p class="students-gain__item__paragraph">
+                                Your schedule is adjusted according to your college obligations.
+                            </p>
+                        </div>
+                        <div class="students-gain__item">
+                            <h1 class="students-gain__item__header">
+                                Receive a competitive salary
+                            </h1>
+                            <p class="students-gain__item__paragraph">
+                               Get paid for the time and effort you put in based on an hourly rate.
+                            </p>
+                        </div>
+                        <div class="students-gain__item">
+                            <h1 class="students-gain__item__header">
+                                Participate in all activities
+                            </h1>
+                            <p class="students-gain__item__paragraph">
+                               Take part in internal company activities like educations, weekly meetings and team buildings.
+                            </p>
+                        </div>
+                        <div class="students-gain__item">
+                            <h1 class="students-gain__item__header">
+                                Be a part of an amazing team
+                            </h1>
+                            <p class="students-gain__item__paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis porro cumque qui dolorum ut doloribus, in sed labore perferendis iure et distinctio facilis impedit suscipit magni? Asperiores corrupti sequi quos aut consequatur impedit quaerat pariatur?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-open-positions">
+        <div class="container">
+            <div class="open-positions">
+                <div class="open-positions__wrapper">
+                    <div class="open-positions__image__box">
+                        <img src="assets/images/openPosition.png" alt="" class="open-positions__image">
+                    </div>
+                    <div class="open-positions__content">
+                        <div class="open-positions__text">
+                            <h1 class="open-positions__header">
+                                Open Positions in Zealarax
+                            </h1>
+                            <p class="open-positions__paragraph">
+                                This is how we define Junior, Middle and Senior positions at Zealarax
+                                Explore our seniority levels
+                            </p>
+                            <a href="#" class="open-positions__link" name="explore our seniority levels">
+                                Explore our seniority levels
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-seniority-levels">
+        <div class="container">
+           <div class="seniority-levels">
+               <div class="seniority-levels__wrapper">
+                   <div class="seniority-levels__card">
+                       <a href="#" class="seniority-levels__card__link" name="iOS Developer">
+                           <div class="seniority-levels__card__left">
+                               <h1 class="seniority-levels__card__header">
+                                    iOS Developer - m/f
+                                </h1>
+                                <div class="seniority-levels__card__info">
+                                    <ul class="seniority-levels__card__info__list">
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Place of Employment:
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Nigeria / Remote
+                                            </p>
+                                        </li>
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Application Due Date:
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Open until filled
+                                            </p>
+                                        </li>
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Type of Emplyment
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Full time job
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                           </div>
+                           <div class="seniority-levels__card__right">
+                               <div class="seniority-levels__card__image__box">
+                                   <img src="assets/icons/right-arrow-1.svg" alt="visit" class="seniority-level__card__image">
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="seniority-levels__card">
+                       <a href="#" class="seniority-levels__card__link" name="Backend JS Developer">
+                           <div class="seniority-levels__card__left">
+                               <h1 class="seniority-levels__card__header">
+                                    Backend JS Developer - m/f
+                                </h1>
+                                <div class="seniority-levels__card__info">
+                                    <ul class="seniority-levels__card__info__list">
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Place of Employment:
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Nigeria / Remote
+                                            </p>
+                                        </li>
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Application Due Date:
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Open until filled
+                                            </p>
+                                        </li>
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Type of Emplyment
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Full time job
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                           </div>
+                           <div class="seniority-levels__card__right">
+                               <div class="seniority-levels__card__image__box">
+                                   <img src="assets/icons/right-arrow-1.svg" alt="visit" class="seniority-level__card__image">
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+                   <div class="seniority-levels__card">
+                       <a href="#" class="seniority-levels__card__link" name="UI/UX Designer">
+                           <div class="seniority-levels__card__left">
+                               <h1 class="seniority-levels__card__header">
+                                    UI/UX Designer - m/f
+                                </h1>
+                                <div class="seniority-levels__card__info">
+                                    <ul class="seniority-levels__card__info__list">
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Place of Employment:
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Nigeria / Remote
+                                            </p>
+                                        </li>
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Application Due Date:
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Open until filled
+                                            </p>
+                                        </li>
+                                        <li class="seniority-levels__card__info__item">
+                                            <h1 class="seniority-levels__card__info__item__header">
+                                                Type of Emplyment
+                                            </h1>
+                                            <p class="seniority-levels__card__info__item__paragraph">
+                                                Full time job
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                           </div>
+                           <div class="seniority-levels__card__right">
+                               <div class="seniority-levels__card__image__box">
+                                   <img src="assets/icons/right-arrow-1.svg" alt="visit" class="seniority-level__card__image">
+                               </div>
+                           </div>
+                       </a>
+                   </div>
+               </div>
+               <div class="seniority-levels__details">
+                   <p class="seniority-levels__details__paragraph">
+                       Think that you would fit in at Bornfight but haven’t found the right open position? We’re always on the lookout for new talent. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, iste.
+                   </p>
+                   <a href="#" class="seniority-levels__details__link" name="fill our application form">
+                       Fill out the application form
+                   </a>
+                   <p class="seniority-levels__details__cta">
+                       If you have any questions or need additional info, contact us at
+                   </p>
+                   <a href="mailto:jobs@zealarax.com" class="seniority-levels__details__cta__link">jobs@zealarax.com</a>
+               </div>
+           </div>
+        </div>
+    </section>
 <?php
     include "includes/posts.php";
-    include "includes/interested-in.php";
     include "includes/footer.php";
 ?>
-<!-- TODO comment all your code tonight and tomorrow during leisure time -->

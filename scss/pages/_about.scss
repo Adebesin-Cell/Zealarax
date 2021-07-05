@@ -18,7 +18,7 @@
   background: var(--black);
   &__paragraph {
     font-family: var(--family--2);
-    font-size: 47px;
+    font-size: 42px;
     font-style: normal;
     font-weight: var(--weight-sm);
     line-height: 56px;
@@ -26,12 +26,12 @@
     text-align: center;
     color: var(--white);
     @media only screen and (max-width: 1200px) {
-      font-size: 38px;
+      font-size: 32px;
       line-height: 48px;
       padding-bottom: 4rem;
     }
     @media only screen and (max-width: 600px) {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 38px;
     }
   }
@@ -160,11 +160,11 @@
     text-align: left;
     color: var(--white);
     @media only screen and (max-width: 1200px) {
-      font-size: calc(var(--size-m) + 2px);
+      font-size: calc(var(--size-m));
       line-height: 24px;
     }
     @media only screen and (max-width: 600px) {
-      font-size: calc(var(--size-xs));
+      font-size: calc(var(--size-s));
       line-height: 21px;
     }
   }
@@ -198,23 +198,14 @@
     }
     &__wrapper {
       display: flex;
-      overflow-x: hidden;
       margin-top: 10vh;
     }
     &__item {
-      flex: 0 0 45%;
-      max-width: 45%;
-      @media only screen and (max-width: 1200px) {
-        flex: 0 0 55%;
-        max-width: 55%;
-      }
-      @media only screen and (max-width: 600px) {
-        flex: 0 0 100%;
-        max-width: 100%;
-      }
+      flex: 0 0 100%;
+      max-width: 100%;
     }
     &__card {
-      padding-right: 60px;
+      // padding-right: 60px;
       &__image {
         display: block;
         width: 100%;
@@ -252,7 +243,7 @@
           line-height: 24px;
         }
         @media only screen and (max-width: 600px) {
-          font-size: var(--size-xs);
+          font-size: var(--size-s);
           line-height: 21px;
         }
       }
@@ -490,5 +481,19 @@
   .banner__image {
     display: block;
     width: 100%;
+    @media only screen and (max-width: 600px) {
+      height: 100%;
+      object-fit: cover;
+    }
+    &__box {
+      @media only screen and (max-width: 600px) {
+        height: 330px;
+      }
+    }
   }
+}
+
+.item {
+  flex: 0 0 100%;
+  max-width: 100%;
 }

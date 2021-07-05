@@ -13,21 +13,21 @@
             </div>
             <div class="menu__navigation__box">
                 <div class="menu__navigation__box__item">
-                    <a href="#" class="menu__navigation__link__main" name=" What we do" aria-label=" What we do">
+                    <a href="what-we-do.php" class="menu__navigation__link__main" name=" What we do" aria-label=" What we do">
                         <span>
                             What we do
                         </span>
                     </a>
                 </div>
                 <div class="menu__navigation__box__item">
-                    <a href="#" class="menu__navigation__link__main" name="Our work" aria-label="Our work">
+                    <a href="work.php" class="menu__navigation__link__main" name="Our work" aria-label="Our work">
                         <span>
                             Our work
                         </span>
                     </a>
                 </div>
                 <div class="menu__navigation__box__item">
-                    <a href="#" class="menu__navigation__link__main" name="blog" aria-label="blog">
+                    <a href="blog.php" class="menu__navigation__link__main" name="blog" aria-label="blog">
                         <span>
                             Blog
                         </span>
@@ -63,14 +63,14 @@
                     </a>
                 </li>
                 <li class="menu__navigation__item">
-                    <a href="#" class="menu__navigation__link" name="Resources" aria-label="Resources">
+                    <a href="resources.php" class="menu__navigation__link" name="Resources" aria-label="Resources">
                         <span>
                             Resources
                         </span>
                     </a>
                 </li>
                 <li class="menu__navigation__item">
-                    <a href="#" class="menu__navigation__link" name="Subscribe to our newsletter" aria-label="Subscribe to our newsletter">
+                    <a href="newsletter.php" class="menu__navigation__link" name="Subscribe to our newsletter" aria-label="Subscribe to our newsletter">
                         <span>
                             Subscribe to our newsletter
                         </span>

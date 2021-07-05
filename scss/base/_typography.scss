@@ -51,7 +51,6 @@ body {
     }
   }
   //about page heading pattern ends here
-
   //homepage heading subs
   &--sub {
     display: block;
@@ -68,13 +67,49 @@ body {
       color: var(--text-green);
     }
   }
-
   //modifier class presnt in career main heading
   &--green {
     color: var(--text-green);
   }
   &--center {
     text-align: center;
+    @media only screen and (max-width: 600px) {
+      text-align: left;
+    }
+  }
+  &--what-we-do-main {
+    .text {
+      display: block;
+
+      &--green {
+        color: var(--text-green);
+      }
+      &--white {
+        color: var(--white);
+      }
+    }
+  }
+  &--blog {
+    .text {
+      display: block;
+      &--green {
+        color: var(--text-green);
+      }
+      &--white {
+        color: var(--white);
+      }
+    }
+  }
+  &--resources {
+    .text {
+      display: block;
+      &--green {
+        color: var(--text-green);
+      }
+      &--white {
+        color: var(--white);
+      }
+    }
   }
 }
 
@@ -91,8 +126,8 @@ body {
 .career__paragraph {
   font-family: var(--family--2);
   font-weight: var(--weight-md);
-  font-size: 37px;
-  line-height: 46px;
+  font-size: 32px;
+  line-height: 42px;
   color: var(--white);
   letter-spacing: -0.035em;
   text-align: center;
@@ -101,4 +136,14 @@ body {
   padding-top: 50px;
   max-width: 970px;
   margin: 0 auto;
+  @media only screen and (max-width: 600px) {
+    max-width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    font-size: 20px;
+    line-height: 27px;
+  }
 }

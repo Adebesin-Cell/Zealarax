@@ -30,7 +30,7 @@
       &__paragraph {
         margin-top: 20px;
         font-family: var(--family--2);
-        font-size: calc(var(--size-m) + 4px);
+        font-size: calc(var(--size-m));
         font-weight: var(--weight-sm);
         letter-spacing: -0.035em;
         line-height: 20px;
@@ -59,7 +59,7 @@
       text-decoration: none;
       color: var(--view-work-text-green);
       font-family: var(--family--2);
-      font-size: calc(var(--size-l) - 4px);
+      font-size: calc(var(--size-s));
       font-weight: var(--weight-sm);
       letter-spacing: -0.035em;
       text-align: left;

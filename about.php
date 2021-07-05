@@ -99,54 +99,108 @@
                     Our activities
                 </h1>
             </div>
-            <div class="activities__wrapper">
-                <div class="activities__item">
-                    <div class="activities__card">
-                        <div class="activities__card__image__box">
-                            <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
-                        </div>
-                        <div class="activities__card__body">
-                            <div class="activities__card__container">
-                                <h1 class="activities__card__header">
-                                    Meetups
-                                </h1>
-                                <p class="activities__card__paragraph">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
-                                </p>
+            <div class="owl-carousel">
+                <div class="activities__wrapper">
+                    <div class="item">
+                        <div class="activities__item">
+                            <div class="activities__card">
+                                <div class="activities__card__image__box">
+                                    <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
+                                </div>
+                                <div class="activities__card__body">
+                                    <div class="activities__card__container">
+                                        <h1 class="activities__card__header">
+                                            Meetups
+                                        </h1>
+                                        <p class="activities__card__paragraph">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="activities__item">
-                    <div class="activities__card">
-                        <div class="activities__card__image__box">
-                            <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
-                        </div>
-                        <div class="activities__card__body">
-                            <div class="activities__card__container">
-                                <h1 class="activities__card__header">
-                                    Meetups
-                                </h1>
-                                <p class="activities__card__paragraph">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
-                                </p>
+                <div class="activities__wrapper">
+                    <div class="item">
+                        <div class="activities__item">
+                            <div class="activities__card">
+                                <div class="activities__card__image__box">
+                                    <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
+                                </div>
+                                <div class="activities__card__body">
+                                    <div class="activities__card__container">
+                                        <h1 class="activities__card__header">
+                                            Meetups
+                                        </h1>
+                                        <p class="activities__card__paragraph">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="activities__item">
-                    <div class="activities__card">
-                        <div class="activities__card__image__box">
-                            <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
+                <div class="activities__wrapper">
+                    <div class="item">
+                        <div class="activities__item">
+                            <div class="activities__card">
+                                <div class="activities__card__image__box">
+                                    <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
+                                </div>
+                                <div class="activities__card__body">
+                                    <div class="activities__card__container">
+                                        <h1 class="activities__card__header">
+                                            Meetups
+                                        </h1>
+                                        <p class="activities__card__paragraph">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="activities__card__body">
-                            <div class="activities__card__container">
-                                <h1 class="activities__card__header">
-                                    Meetups
-                                </h1>
-                                <p class="activities__card__paragraph">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
-                                </p>
+                    </div>
+                </div>
+                <div class="activities__wrapper">
+                    <div class="item">
+                        <div class="activities__item">
+                            <div class="activities__card">
+                                <div class="activities__card__image__box">
+                                    <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
+                                </div>
+                                <div class="activities__card__body">
+                                    <div class="activities__card__container">
+                                        <h1 class="activities__card__header">
+                                            Meetups
+                                        </h1>
+                                        <p class="activities__card__paragraph">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="activities__wrapper">
+                    <div class="item">
+                        <div class="activities__item">
+                            <div class="activities__card">
+                                <div class="activities__card__image__box">
+                                    <img src="assets/images/postimage.png" alt="our activity" class="activities__card__image">
+                                </div>
+                                <div class="activities__card__body">
+                                    <div class="activities__card__container">
+                                        <h1 class="activities__card__header">
+                                            Meetups
+                                        </h1>
+                                        <p class="activities__card__paragraph">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis impedit sed neque, nulla sapiente totam aspernatur cumque non dicta temporibus praesentium fuga, molestias autem maxime reprehenderit laborum, nam est! Nostrum!
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
