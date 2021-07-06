@@ -161,5 +161,6 @@
   align-items: flex-end;
   @media only screen and (max-width: 600px) {
     padding-left: 0;
+    align-items: initial;
   }
 }
