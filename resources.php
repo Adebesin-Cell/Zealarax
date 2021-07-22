@@ -6,13 +6,11 @@
     <section class="section-resources-intro">
         <div class="container">
             <h1 class="heading-primary heading-primary--resources">
-                <span class="text">
-                    <span class="text--green">
-                        Explore & 
-                    </span>
-                    <span class="text--white">
-                        Learn
-                    </span>
+                <span class="text text--green">
+                    Explore & 
+                </span>
+                <span class="text text--white">
+                    Learn
                 </span>
             </h1>
             <p class="resources-intro__paragraph">

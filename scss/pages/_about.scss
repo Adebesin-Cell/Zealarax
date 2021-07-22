@@ -1,6 +1,6 @@
 .section-about {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
 }
 
 .about-hero {
@@ -15,7 +15,7 @@
 
 .about-intro {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   &__paragraph {
     font-family: var(--family--2);
     font-size: 42px;
@@ -173,7 +173,7 @@
 .section-activities {
   @include sectionspace;
   margin-top: -3px;
-  background: var(--black);
+  background: var(--dark);
   .header-container {
     max-width: 400px;
   }
@@ -370,7 +370,7 @@
 
 .section-awards {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .awards {
     &__wrapper {
       display: flex;

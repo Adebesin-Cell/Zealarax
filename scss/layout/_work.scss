@@ -106,9 +106,13 @@
     line-height: 48px;
     letter-spacing: -0.035em;
     text-align: left;
-    @media only screen and (max-width: 1024px) {
-      font-size: 38px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 36px;
       line-height: 46px;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 30px;
     }
     @media only screen and (max-width: 600px) {
       font-size: calc(var(--size-m) + 2px);

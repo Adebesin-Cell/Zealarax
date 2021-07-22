@@ -11,8 +11,8 @@ harmburger.addEventListener("click", () => {
 });
 
 //menu close function
-closeBtns.forEach((close) => {
-  close.addEventListener("click", () => {
+closeBtns.forEach((closeBtn) => {
+  closeBtn.addEventListener("click", () => {
     menu.classList.remove("show");
     body.classList.remove("no-scroll");
   });

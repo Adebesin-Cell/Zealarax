@@ -1,11 +1,11 @@
 .section-blog-intro {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
 }
 
 .section-blog {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
 
   .blog {
     &__tabs {

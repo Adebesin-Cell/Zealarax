@@ -1,6 +1,6 @@
 .section-resources-intro {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .resources-intro {
     &__paragraph {
       font-size: 30px;
@@ -24,7 +24,7 @@
 
 .section-resources {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .resources {
     &__tab {
       padding-bottom: 40px;

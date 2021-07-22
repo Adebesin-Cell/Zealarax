@@ -50,22 +50,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="posts__item">
-                            <div class="posts__card">
-                                <div class="posts__card__image__box">
-                                    <img src="assets/images/img2.jpg" alt="post 2" class="posts__image">
-                                </div>
-                                <div class="posts__card__body">
-                                    <p class="posts__card__date">
-                                        Develompent  June 01, 2021
-                                    </p>
-                                    <p class="posts__card__paragraph">
-                                        Choosing the right features
-                                        for your custom mobile apps
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="posts__btn__box--mobile">
                         <a href="#" class="posts__link" name="read more posts" aria-label="read more posts">

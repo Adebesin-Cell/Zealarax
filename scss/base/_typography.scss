@@ -100,6 +100,17 @@ body {
       }
     }
   }
+  &--contact {
+    .text {
+      display: block;
+      &--green {
+        color: var(--text-green);
+      }
+      &--white {
+        color: var(--white);
+      }
+    }
+  }
   &--resources {
     .text {
       display: block;

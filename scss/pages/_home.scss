@@ -1,5 +1,5 @@
 .section-intro {
-  background: var(--black);
+  background: var(--dark);
   @include sectionspace;
   .intro {
     display: flex;
@@ -33,7 +33,7 @@
 .section-works {
   margin-top: -3px;
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
 }
 
 .section-what-we-do {

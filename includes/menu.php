@@ -77,7 +77,7 @@
                     </a>
                 </li>
                 <li class="menu__navigation__item">
-                    <a href="#" class="menu__navigation__link menu__navigation__link--flex" name="Home" aria-label="Start a project">
+                    <a href="contact.php" class="menu__navigation__link menu__navigation__link--flex" name="Home" aria-label="Start a project">
                         <span>
                             Start a project
                         </span>

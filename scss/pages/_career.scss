@@ -1,10 +1,10 @@
 .section-career {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   text-align: center;
   &-intro {
     @include sectionspace;
-    background: var(--black);
+    background: var(--dark);
     &__image {
       display: block;
       width: 100%;
@@ -14,7 +14,7 @@
 
 .section-what-you-gain {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .what-you-gain {
     &__header {
       font-family: var(--family--2);
@@ -126,7 +126,7 @@
 }
 
 .section-career-banner {
-  background: var(--black);
+  background: var(--dark);
   &__image {
     display: block;
     width: 100%;
@@ -135,7 +135,7 @@
 
 .section-career-type {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .career-type {
     &__header {
       font-family: var(--family--2);
@@ -256,7 +256,7 @@
 
 .section-professional-testimoanl {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .professional-testimonial {
     &__header {
       font-family: var(--family--2);
@@ -284,7 +284,7 @@
 
 .section-our-selection {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .our-selection {
     &__header {
       font-family: var(--family--2);
@@ -356,7 +356,7 @@
 
 .section-students {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .our-students {
     &__header {
       font-family: var(--family--2);
@@ -479,7 +479,7 @@
 
 .section-students-gain {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .students-gain {
     &__header {
       color: var(--text-green);
@@ -554,7 +554,7 @@
 
 .section-open-positions {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .open-positions {
     &__wrapper {
       display: flex;
@@ -662,7 +662,7 @@
 
 .section-seniority-levels {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .seniority-levels {
     &__card {
       &:nth-child(1) {
