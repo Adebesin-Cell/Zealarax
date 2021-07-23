@@ -1,11 +1,11 @@
 .section-what-we-do-main {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
 }
 
 .section-what-we-do-intro {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .what-we-do-intro {
     &__wrapper {
       display: flex;
@@ -239,7 +239,7 @@
 
 .section-our-stacks {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .our-stacks {
     &__header {
       font-family: var(--family--2);
@@ -271,6 +271,9 @@
     }
     &__item {
       padding-bottom: 50px;
+      @media only screen and (max-width: 600px) {
+        flex: 0 0 50%;
+      }
       &__list {
         list-style-type: none;
       }
@@ -484,7 +487,7 @@
 
 .section-sessions {
   @include sectionspace;
-  background: var(--black);
+  background: var(--dark);
   .sessions {
     &__wrapper {
       display: flex;

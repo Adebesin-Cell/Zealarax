@@ -1,6 +1,8 @@
 .section-pagination {
   background: var(--dark);
   margin-top: -3px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   .pagination {
     &__list {
       display: flex;
