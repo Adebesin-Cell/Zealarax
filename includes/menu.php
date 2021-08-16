@@ -27,7 +27,7 @@
                     </a>
                 </div>
                 <div class="menu__navigation__box__item">
-                    <a href="blog.php" class="menu__navigation__link__main" name="blog" aria-label="blog">
+                    <a href="blog_2.php" class="menu__navigation__link__main" name="blog" aria-label="blog">
                         <span>
                             Blog
                         </span>

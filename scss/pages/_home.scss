@@ -240,7 +240,6 @@
         }
       }
       .testimonial__sub__text {
-        margin-top: 30px;
         font-family: var(--family--2);
         font-size: var(--size-m);
         font-weight: var(--weight-xsm);
@@ -260,7 +259,7 @@
 }
 .section-better-products {
   @include sectionspace;
-  background-color: rgba(26, 26, 26, 1);
+  background-color: var(--dark);
   position: relative;
   .better-products {
     &__content {

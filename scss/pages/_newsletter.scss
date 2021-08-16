@@ -251,9 +251,16 @@
   display: none;
 }
 
+.check:checked + .check__label .checkbox .icon svg {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
 .check__label {
   margin-right: 20px;
   .checkbox {
+    cursor: pointer;
     width: 16px;
     height: 16px;
     border: 2px solid var(--newsletter-agreement-text);
@@ -261,10 +268,15 @@
     align-items: center;
     justify-content: center;
     .icon {
-      width: 5px;
-      height: 5px;
-      background: red;
-      border-radius: 50%;
+      color: var(--dark);
+      svg {
+        width: 8px;
+        height: 8px;
+        transition: all 0.3s;
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0.5);
+      }
     }
   }
 }

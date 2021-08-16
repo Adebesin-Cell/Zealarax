@@ -415,13 +415,10 @@
                 tabBtns.forEach((btn) => {
                     btn.classList.remove("active");
                 });
-
                 e.target.classList.add("active");
-
                 tabContent.forEach((content) => {
                     content.classList.remove("active");
                 });
-
                 const elem = document.getElementById(id);
                 elem.classList.add("active");
             }
