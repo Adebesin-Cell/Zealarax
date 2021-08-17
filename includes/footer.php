@@ -11,7 +11,7 @@
                                 Take a look at what we’ve
                                 created and get inspired!
                             </p>
-                            <a href="#" class="view-work" name="view work" aria-label="view work">
+                            <a href="work.php" class="view-work" name="view work" aria-label="view work">
                                 View work
                             </a>
                         </div>
@@ -25,7 +25,7 @@
                                 See what we do and learn 
                                 more about working together.
                             </p>
-                            <a href="#" class="view-work" name="View Services" aria-label="View Services">
+                            <a href="what-we-do.php" class="view-work" name="View Services" aria-label="View Services">
                                 View Services
                             </a>
                         </div>
@@ -61,7 +61,7 @@
                             </a>
                         </li>
                         <li class="footer__navigation__item">
-                            <a href="blog.php" class="footer__navigation__link" name="Blog" aria-label="Blog">
+                            <a href="blog_2.php" class="footer__navigation__link" name="Blog" aria-label="Blog">
                                 <span>
                                     Blog
                                 </span>

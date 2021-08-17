@@ -11,7 +11,7 @@
                             in digging
                             deeper?
                         </h1>
-                        <a href="#" class="cta">
+                        <a href="contact.php" class="cta">
                             <span>
                                 Discuss your project with us!
                             </span>

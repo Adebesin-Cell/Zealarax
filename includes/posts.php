@@ -10,7 +10,7 @@
                             Latest Post
                         </h1>
                         <div class="posts__btn__box">
-                            <a href="#" class="posts__link" name="read more posts" aria-label="read more posts">
+                            <a href="blog__2.php" class="posts__link" name="read more posts" aria-label="read more posts">
                                 <span>
                                     Read more posts
                                 </span>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="posts__btn__box--mobile">
-                        <a href="#" class="posts__link" name="read more posts" aria-label="read more posts">
+                        <a href="blog__2.php" class="posts__link" name="read more posts" aria-label="read more posts">
                             <span>
                                 Read more posts
                             </span>

@@ -508,16 +508,66 @@ body {
 
 .icon__link {
   text-decoration: none;
+  display: block;
+  width: 100%;
 }
 
 .icon__link svg {
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 16px;
 }
 
-.icon__link svg circle + path {
-  width: 16px !important;
-  height: 16px !important;
+.icon__background {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icon__background--1, .icon__background--4 {
+  background: var(--white);
+}
+
+.icon__background--2, .icon__background--5 {
+  background: var(--green);
+}
+
+.icon__background--3 {
+  background: var(--icon-purple);
+}
+
+.icon__scale--hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__scale--hover svg polyline {
+  stroke: var(--white);
+}
+
+.icon__scale--hover svg line {
+  stroke: var(--white);
+}
+
+.icon__scale--hover--1, .icon__scale--hover--4 {
+  background: var(--white);
+}
+
+.icon__scale--hover--2, .icon__scale--hover--5 {
+  background: var(--green);
+}
+
+.icon__scale--hover--3 {
+  background: var(--icon-purple);
+}
+
+.icon__link:hover .icon__scale--hover {
+  transform: scale(1.5);
+  opacity: 0.5;
 }
 
 .menu {
@@ -1843,6 +1893,12 @@ body {
   padding-bottom: var(--span-2xl);
 }
 
+.work__text__link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .work__text {
     flex: 0 0 100%;
@@ -1913,6 +1969,9 @@ body {
   line-height: 18px;
   letter-spacing: -0.035em;
   text-align: left;
+  transform: translateX(0px);
+  opacity: 1;
+  transition: all 0.3s;
 }
 
 .work__number--white {
@@ -1978,6 +2037,8 @@ body {
   line-height: 21px;
   letter-spacing: -0.035em;
   text-align: left;
+  transform: translateX(0);
+  transition: all 0.3s;
 }
 
 .work__description span {
@@ -1994,6 +2055,15 @@ body {
 
 .work__description--purple {
   color: var(--purple);
+}
+
+.work__text__link:hover .work__number {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.work__text__link:hover .work__description {
+  transform: translateX(20px);
 }
 
 .work__padding__left {
@@ -2019,6 +2089,11 @@ body {
     padding-left: 0;
     align-items: initial;
   }
+}
+
+.work__text__link:hover + .icon__box .icon__scale--hover {
+  transform: scale(1.5);
+  opacity: 0.5;
 }
 
 .section-about {
@@ -2617,6 +2692,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  padding-left: 20px;
 }
 
 @media only screen and (max-width: 1140px) {

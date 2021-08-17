@@ -219,7 +219,7 @@
                         <p class="team__paragraph">
                             Our team consists of top level designers, coders and experts with a can-do spirit and a dig deeper approach. We constantly experiment with the most advanced technology in order to find a solution for every business challenge.
                         </p>
-                        <a href="#" class="meet-our-team" name="meet our team" aria-label="meet our team">
+                        <a href="team.php" class="meet-our-team" name="meet our team" aria-label="meet our team">
                             <span>
                                 Meet our team
                             </span>

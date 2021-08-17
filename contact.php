@@ -100,6 +100,7 @@
                 selectList.classList.toggle("hidden");
                 selectIcon.classList.toggle("rotate");
                 selectInput.blur();
+                console.log(selectInput.value);
             })
         });
         
