@@ -86,15 +86,15 @@
                         <div class="work__text work__text--flex-end work__padding__right">
                             <div class="work__details">
                                 <a href="#" class="work__text__link">
-                                    <p class="work__number work__number--white">
+                                    <p class="work__number work__number--green">
                                         02
                                     </p>
-                                    <p class="work__info work__info--white">
+                                    <p class="work__info work__info--green">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
-                                    <p class="work__description work__description--white">
+                                    <p class="work__description work__description--green">
                                         <span>
                                             Mobile Application
                                         </span>  - Prunny
@@ -116,15 +116,15 @@
                         <div class="work__text work__text--flex-end work__padding__left">
                             <div class="work__details">
                                 <a href="#" class="work__text__link">
-                                    <p class="work__number work__number--white">
+                                    <p class="work__number work__number--purple">
                                         03
                                     </p>
-                                    <p class="work__info work__info--white">
+                                    <p class="work__info work__info--purple">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
-                                    <p class="work__description work__description--white">
+                                    <p class="work__description work__description--purple">
                                         <span>
                                             Mobile Application
                                         </span>  - Prunny
@@ -182,15 +182,15 @@
                         <div class="work__text work__text--flex-end work__padding__left">
                             <div class="work__details">
                                 <a href="#" class="work__text__link">
-                                    <p class="work__number work__number--white">
+                                    <p class="work__number work__number--green">
                                         05
                                     </p>
-                                    <p class="work__info work__info--white">
+                                    <p class="work__info work__info--green">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
-                                    <p class="work__description work__description--white">
+                                    <p class="work__description work__description--green">
                                         <span>
                                             Mobile Application
                                         </span>  - Prunny
