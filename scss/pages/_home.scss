@@ -163,6 +163,7 @@
   }
   .testimonial {
     @include sectionspace;
+
     background: var(--white);
     position: relative;
     &__banner {
@@ -176,21 +177,6 @@
       }
       @media only screen and (max-width: 600px) {
         height: 330px;
-      }
-    }
-    &__overlay {
-      position: absolute;
-      z-index: 1;
-      width: 791px;
-      height: 290px;
-      display: none;
-      &--top {
-        top: 0;
-        left: 0;
-      }
-      &--bottom {
-        right: 0;
-        bottom: 0;
       }
     }
     &__content {
@@ -234,6 +220,7 @@
         @media only screen and (max-width: 600px) {
           margin-top: 0;
           padding-top: 32px;
+          padding-bottom: 10px;
         }
         &--purple {
           color: var(--testimonial-purple);
@@ -252,6 +239,78 @@
         }
         &--purple {
           color: var(--testimonial-purple);
+        }
+      }
+    }
+
+    &__wrapper {
+      display: flex;
+
+      justify-content: center;
+      overflow-x: hidden;
+      position: relative;
+      height: 500px;
+      overflow-y: hidden;
+      @media only screen and (max-width: 1024px) {
+        height: 350px;
+      }
+      @media only screen and (max-width: 600px) {
+        height: 300px;
+      }
+    }
+    &__content {
+      flex: 0 0 100%;
+      width: 100%;
+      height: 100%;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      // z-index: 2;
+
+      &.hidden {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s;
+      }
+    }
+
+    &__controls {
+      max-width: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__counter {
+      font-size: var(--size-s);
+      font-weight: var(--weight-md);
+      line-height: 21px;
+      color: var(--black);
+    }
+
+    &__btn {
+      border: none;
+      outline: none;
+      background: transparent;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+
+      svg {
+        width: 16px;
+        height: 16px;
+
+        polyline {
+          stroke: var(--black);
+        }
+
+        line {
+          stroke: var(--black);
         }
       }
     }
