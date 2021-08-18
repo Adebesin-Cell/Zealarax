@@ -18,34 +18,73 @@
                     </a>
                 </li>
                 <li>
-                    <a href="blog.php" class="waves-effect">
-                        <i class="ti-home"></i>
-                        <span>Blog</span>
-                    </a>
-                </li>
-
-                <li>
                     <a href="javascript: void(0);" class="waves-effect">
-                        <i class="ti-location-pin"></i>
-                        <span class="badge badge-pill badge-danger float-right">2</span>
-                        <span>Blog</span>
+                        <i class="ti-home"></i>
+                        <span>Home</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="maps-google.html"> Google Map</a></li>
-                        <li><a href="maps-vector.html"> Vector Map</a></li>
+                        <li><a href="view-works.php"> Our Work </a></li>
+                        <li><a href="view-testimonial.php"> Testimonial </a></li>
+                        <li><a href="#"> Add Blog </a></li>
+                        <li><a href="#"> View Blog </a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ti-layout"></i>
-                        <span> Layouts </span>
+                    <a href="javascript: void(0);" class="waves-effect">
+                        <i class="ti-info"></i>
+                        <span>About</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                        <li><a href="layouts-compact-sidebar.html">Compact Sidebar</a></li>
-                        <li><a href="layouts-icon-sidebar.html">Icon Sidebar</a></li>
-                        <li><a href="layouts-boxed.html">Boxed Layout</a></li>
+                        <li><a href="#"> About Main </a></li>
+                        <li><a href="#"> Add About Info </a></li>
+                        <li><a href="#"> View About Info </a></li>
+                        <li><a href="#"> Activities </a></li>
+                        <li><a href="#"> View Activities </a></li>
+                        <li><a href="#"> Awards </a></li>
+                        <li><a href="#"> View Awards </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="waves-effect">
+                        <i class="ti-settings"></i>
+                        <span>Services</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#"> What We Do </a></li>
+                        <li><a href="#"> Our Expertise </a></li>
+                        <li><a href="#"> Add Stack </a></li>
+                        <li><a href="#"> View Stacks </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="waves-effect">
+                        <i class="ti-briefcase"></i>
+                        <span>Works</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#"> Project </a></li>
+                        <li><a href="#"> View Projects </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="waves-effect">
+                        <i class="ti-user"></i>
+                        <span>Contact</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#"> Social Media </a></li>
+                        <li><a href="#"> Address </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="waves-effect">
+                        <i class="ti-write"></i>
+                        <span>Blog</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#"> Add Blog </a></li>
+                        <li><a href="#"> View Blog </a></li>
                     </ul>
                 </li>
             </ul>
