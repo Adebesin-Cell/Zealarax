@@ -431,7 +431,7 @@
                             <p class="sessions__paragraph">
                                 We strive to understand the partner's business as thoroughly as possible. In these sessions, we revise digital strategies and products, or simply elevate our partner's digital marketing knowledge.
                             </p>
-                            <a href="#" class="sessions__link" name="book a session">
+                            <a href="contact.php" class="sessions__link" name="book a session">
                                 <span>
                                     Book a session
                                 </span>
