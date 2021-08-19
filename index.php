@@ -314,7 +314,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial__content testimonial__content--3">
+                <div class="testimonial__content testimonial__content--4">
                     <div class="container">
                         <div class="testimonial__item">
                             <p class="testimonial__text testimonial__text--purple">

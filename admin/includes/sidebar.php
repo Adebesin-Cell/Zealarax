@@ -25,8 +25,7 @@
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="view-works.php"> Our Work </a></li>
                         <li><a href="view-testimonial.php"> Testimonial </a></li>
-                        <li><a href="#"> Add Blog </a></li>
-                        <li><a href="#"> View Blog </a></li>
+                        <li><a href="view-blog.php"> Blog </a></li>
                     </ul>
                 </li>
 
