@@ -55,6 +55,116 @@ include "includes/sidebar.php";
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
+                                    <tr>
+										<td>2</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>3</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>4</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>5</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>6</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>7</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>8</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>9</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>10</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>11</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Development</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>12</td>
+                                        <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
+                                        <td>Redeeming Technology With Javascript</td>
+                                        <td>Technology</td>
+                                        <td>
+                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-danger">Delete</button>
+                                        </td>
+									</tr>
 								</tbody>
 							</table>
 						</div>

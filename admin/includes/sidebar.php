@@ -35,13 +35,10 @@
                         <span>About</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#"> About Main </a></li>
-                        <li><a href="#"> Add About Info </a></li>
-                        <li><a href="#"> View About Info </a></li>
+                        <li><a href="view-about-main.php"> About Main </a></li>
+                        <li><a href="view-about-info.php"> About Info </a></li>
                         <li><a href="#"> Activities </a></li>
-                        <li><a href="#"> View Activities </a></li>
                         <li><a href="#"> Awards </a></li>
-                        <li><a href="#"> View Awards </a></li>
                     </ul>
                 </li>
                 <li>
@@ -52,8 +49,7 @@
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="#"> What We Do </a></li>
                         <li><a href="#"> Our Expertise </a></li>
-                        <li><a href="#"> Add Stack </a></li>
-                        <li><a href="#"> View Stacks </a></li>
+                        <li><a href="#"> Stack </a></li>
                     </ul>
                 </li>
                 <li>
@@ -62,8 +58,7 @@
                         <span>Works</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#"> Project </a></li>
-                        <li><a href="#"> View Projects </a></li>
+                        <li><a href="#"> Projects </a></li>
                     </ul>
                 </li>
                 <li>
@@ -82,8 +77,7 @@
                         <span>Blog</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#"> Add Blog </a></li>
-                        <li><a href="#"> View Blog </a></li>
+                        <li><a href="#"> Blogs </a></li>
                     </ul>
                 </li>
             </ul>
