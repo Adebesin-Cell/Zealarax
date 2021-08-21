@@ -401,8 +401,6 @@
         currentSlideEl.textContent = `0${currentSlide + 1}`;
         totalSlide.textContent = `0${maxSlide}`;
 
-        console.log(maxSlide);
-
         const gotoSlide = function(slide) {
             slides.forEach(function(s, i) {
                 s.classList.add("hidden");
