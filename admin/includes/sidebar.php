@@ -37,8 +37,8 @@
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="view-about-main.php"> About Main </a></li>
                         <li><a href="view-about-info.php"> About Info </a></li>
-                        <li><a href="#"> Activities </a></li>
-                        <li><a href="#"> Awards </a></li>
+                        <li><a href="view-activities.php"> Activities </a></li>
+                        <li><a href="view-awards.php"> Awards </a></li>
                     </ul>
                 </li>
                 <li>

@@ -37,14 +37,14 @@ include "includes/sidebar.php";
                                     <div class="col-md-6 mb-3">
                                         <div class="form-group">
                                             <label class="mb-2">About Info Title</label>
-                                            <input type="text" name="About Info Title" class="form-control" placeholder="Blog Title">
+                                            <input type="text" name="About Info Title" class="form-control" placeholder="About Info Title">
                                         </div>
                                     </div>
                                     <div class="col-md-6 mb-3">
                                         <div class="form-group">
                                             <label class="mb-2">About Info Image</label>
                                             <div class="custom-file">
-                                                <input type="file" name="work-image" class="custom-file-input" placeholder="About Info Image" id="customFile">
+                                                <input type="file" name="About Info Image" class="custom-file-input" placeholder="About Info Image" id="customFile">
                                                 <label class="form-control custom-file-label" id="customFile">About Info Image</label>
                                             </div>
                                         </div>
@@ -59,7 +59,6 @@ include "includes/sidebar.php";
                                         <button class="btn btn-inline btn-success">Add About Info</button>
                                     </div>
                                 </div>
-                                
                             </form>
                         </div>
                     </div>

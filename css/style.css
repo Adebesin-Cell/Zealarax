@@ -5173,6 +5173,7 @@ input:internal-autofill-selected {
   .section-testimonial .testimonial__item .testimonial__name {
     font-size: var(--size-m);
     line-height: 18px;
+    padding-bottom: 5px;
   }
 }
 

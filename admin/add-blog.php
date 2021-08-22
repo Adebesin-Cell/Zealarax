@@ -44,7 +44,7 @@ include "includes/sidebar.php";
                                         <div class="form-group">
                                             <label class="mb-2">Blog Image</label>
                                             <div class="custom-file">
-                                                <input type="file" name="work-image" class="custom-file-input" placeholder="Blog image here" id="customFile">
+                                                <input type="file" name="Blog Image" class="custom-file-input" placeholder="Blog image here" id="customFile">
                                                 <label class="form-control custom-file-label" id="customFile">Blog Image</label>
                                             </div>
                                         </div>
