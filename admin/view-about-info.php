@@ -39,7 +39,7 @@ include "includes/sidebar.php";
 									<tr>
 										<th>S/N</th>
 										<th>About Info Title</th>
-                                        <th>About Info images</th>
+                                        <th>About Info image</th>
 										<th>About Info Description</th>
                                         <th>Actions</th>
 									</tr>
@@ -51,7 +51,7 @@ include "includes/sidebar.php";
                                         <td><img src="../assets/images/postImage.png" class="d-block img-fluid object-fit" width="100px" height="50px" alt="work"></td>
                                         <td style="width:300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis veniam vitae. Ab voluptatum dolorum in, nemo nisi voluptates optio ex ut repellat! Itaque rerum tenetur, voluptates non voluptas ipsum asperiores voluptatibus molestiae excepturi blanditiis officiis temporibus reprehenderit! Doloremque, facere placeat necessitatibus doloribus dolor quidem hic aspernatur laborum non earum.</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-about-info.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
