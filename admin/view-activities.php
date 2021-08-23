@@ -31,7 +31,7 @@ include "includes/sidebar.php";
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header pb-0">
-							<h2 class="mb-3">Activities</h3>
+							<h2 class="mb-3">Our Activities</h3>
 						</div>
 						<div class="card-body">
 							<table class="table" id="datatable">

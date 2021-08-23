@@ -6863,6 +6863,7 @@ input:internal-autofill-selected {
 .section-our-stacks .our-stacks__item__content span {
   position: relative;
   padding-bottom: 5px;
+  display: inline-block;
 }
 
 .section-our-stacks .our-stacks__item__content span::before {

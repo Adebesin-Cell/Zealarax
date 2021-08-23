@@ -47,9 +47,9 @@
                         <span>Services</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#"> What We Do </a></li>
-                        <li><a href="#"> Our Expertise </a></li>
-                        <li><a href="#"> Stack </a></li>
+                        <li><a href="view-what-we-do.php"> What We Do </a></li>
+                        <li><a href="view-expertise.php"> Our Expertise </a></li>
+                        <li><a href="view-stacks.php"> Stack </a></li>
                     </ul>
                 </li>
                 <li>
@@ -58,7 +58,7 @@
                         <span>Works</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#"> Projects </a></li>
+                        <li><a href="view-projects.php">Projects </a></li>
                     </ul>
                 </li>
                 <li>
