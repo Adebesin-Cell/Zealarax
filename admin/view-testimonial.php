@@ -53,7 +53,7 @@ include "includes/sidebar.php";
                                         <td>Senior Frontend Developer</td>
                                         <td> Cell </td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-testimonial.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>

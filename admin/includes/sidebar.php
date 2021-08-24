@@ -67,8 +67,8 @@
                         <span>Contact</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#"> Social Media </a></li>
-                        <li><a href="#"> Address </a></li>
+                        <li><a href="view-social-medias.php"> Social Media </a></li>
+                        <li><a href="add-address.php"> Address </a></li>
                     </ul>
                 </li>
                 <li>

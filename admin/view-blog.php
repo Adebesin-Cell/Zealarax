@@ -51,7 +51,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -61,7 +61,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -71,7 +71,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -81,7 +81,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -91,7 +91,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -101,7 +101,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -111,7 +111,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -121,7 +121,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -131,7 +131,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -141,7 +141,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -151,7 +151,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Development</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -161,7 +161,7 @@ include "includes/sidebar.php";
                                         <td>Redeeming Technology With Javascript</td>
                                         <td>Technology</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-blog.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
