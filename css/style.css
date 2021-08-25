@@ -3440,6 +3440,13 @@ body {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-career-banner__image {
+    height: 330px;
+    object-fit: cover;
+  }
+}
+
 .section-career-type {
   padding-top: 15.5vh;
   padding-left: 0;
@@ -3667,6 +3674,13 @@ body {
 .section-professional-testimoanl .professional-testimonial__image {
   display: block;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-professional-testimoanl .professional-testimonial__image {
+    height: 330px;
+    object-fit: cover;
+  }
 }
 
 .section-professional-testimoanl .professional-testimonial__image__box {
@@ -5866,6 +5880,11 @@ input:internal-autofill-selected {
 
 .check__label .checkbox .icon {
   color: var(--dark);
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .check__label .checkbox .icon svg {
@@ -6541,6 +6560,13 @@ input:internal-autofill-selected {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-what-we-do-banner .what-we-do-banner__image {
+    height: 330px;
+    object-fit: cover;
+  }
+}
+
 .section-expertise {
   padding-top: 15.5vh;
   padding-left: 0;
@@ -6655,6 +6681,13 @@ input:internal-autofill-selected {
 .section-expertise-banner .expertise-banner__image {
   display: block;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-expertise-banner .expertise-banner__image {
+    height: 330px;
+    object-fit: cover;
+  }
 }
 
 .section-ceo {

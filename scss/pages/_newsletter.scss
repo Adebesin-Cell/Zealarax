@@ -269,6 +269,11 @@
     justify-content: center;
     .icon {
       color: var(--dark);
+      height: 16px;
+      width: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       svg {
         width: 8px;
         height: 8px;
