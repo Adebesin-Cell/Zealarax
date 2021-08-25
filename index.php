@@ -86,15 +86,15 @@
                         <div class="work__text work__text--flex-end work__padding__right">
                             <div class="work__details">
                                 <a href="#" class="work__text__link">
-                                    <p class="work__number work__number--green">
+                                    <p class="work__number work__number--white">
                                         02
                                     </p>
-                                    <p class="work__info work__info--green">
+                                    <p class="work__info work__info--white">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
-                                    <p class="work__description work__description--green">
+                                    <p class="work__description work__description--white">
                                         <span>
                                             Mobile Application
                                         </span>  - Prunny
@@ -116,15 +116,15 @@
                         <div class="work__text work__text--flex-end work__padding__left">
                             <div class="work__details">
                                 <a href="#" class="work__text__link">
-                                    <p class="work__number work__number--purple">
+                                    <p class="work__number work__number--white">
                                         03
                                     </p>
-                                    <p class="work__info work__info--purple">
+                                    <p class="work__info work__info--white">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
-                                    <p class="work__description work__description--purple">
+                                    <p class="work__description work__description--white">
                                         <span>
                                             Mobile Application
                                         </span>  - Prunny
@@ -182,15 +182,15 @@
                         <div class="work__text work__text--flex-end work__padding__left">
                             <div class="work__details">
                                 <a href="#" class="work__text__link">
-                                    <p class="work__number work__number--green">
+                                    <p class="work__number work__number--white">
                                         05
                                     </p>
-                                    <p class="work__info work__info--green">
+                                    <p class="work__info work__info--white">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
-                                    <p class="work__description work__description--green">
+                                    <p class="work__description work__description--white">
                                         <span>
                                             Mobile Application
                                         </span>  - Prunny
@@ -262,96 +262,28 @@
             &nbsp;
         </div>
         <div class="testimonial">
-            <div class="testimonial__wrapper">
-                <div class="testimonial__content testimonial__content--1">
-                    <div class="container">
-                        <div class="testimonial__item">
-                            <p class="testimonial__text testimonial__text--purple">
-                                Zealarax technologies has the best services
-                                in my encounters with different developers
-                                around the globe, fast and efficient tech guys!
-                            </p>
-                            <h3 class="testimonial__name testimonial__name--purple">
-                                Temidayo Avin 1
-                            </h3>
-                            <p class="testimonial__sub__text testimonial__sub__text--purple">
-                                Brand Strategist - Alvin Imaginations Studio
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial__content testimonial__content--2">
-                    <div class="container">
-                        <div class="testimonial__item">
-                            <p class="testimonial__text testimonial__text--purple">
-                                Zealarax technologies has the best services
-                                in my encounters with different developers
-                                around the globe, fast and efficient tech guys!
-                            </p>
-                            <h3 class="testimonial__name testimonial__name--purple">
-                                Temidayo Avin 2
-                            </h3>
-                            <p class="testimonial__sub__text testimonial__sub__text--purple">
-                                Brand Strategist - Alvin Imaginations Studio
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial__content testimonial__content--3">
-                    <div class="container">
-                        <div class="testimonial__item">
-                            <p class="testimonial__text testimonial__text--purple">
-                                Zealarax technologies has the best services
-                                in my encounters with different developers
-                                around the globe, fast and efficient tech guys!
-                            </p>
-                            <h3 class="testimonial__name testimonial__name--purple">
-                                Temidayo Avin 3
-                            </h3>
-                            <p class="testimonial__sub__text testimonial__sub__text--purple">
-                                Brand Strategist - Alvin Imaginations Studio
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial__content testimonial__content--3">
-                    <div class="container">
-                        <div class="testimonial__item">
-                            <p class="testimonial__text testimonial__text--purple">
-                                Zealarax technologies has the best services
-                                in my encounters with different developers
-                                around the globe, fast and efficient tech guys!
-                            </p>
-                            <h3 class="testimonial__name testimonial__name--purple">
-                                Temidayo Avin 4
-                            </h3>
-                            <p class="testimonial__sub__text testimonial__sub__text--purple">
-                                Brand Strategist - Alvin Imaginations Studio
-                            </p>
-                        </div>
+            <div class="testimonial__overlay testimonial__overlay--top">
+                &nbsp;
+            </div>
+            <div class="testimonial__content">
+                <div class="container">
+                    <div class="testimonial__item">
+                        <p class="testimonial__text testimonial__text--purple">
+                            Zealarax technologies has the best services
+                            in my encounters with different developers
+                            around the globe, fast and efficient tech guys!
+                        </p>
+                        <h3 class="testimonial__name testimonial__name--purple">
+                            Temidayo Avin
+                        </h3>
+                        <p class="testimonial__sub__text testimonial__sub__text--purple">
+                            Brand Strategist - Alvin Imaginations Studio
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="testimonial__controls">
-                    <button class="testimonial__btn testimonial__btn--left">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="244 400 100 256 244 112" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="120" y1="256" x2="412" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                    </button>
-                    <div class="testimonial__counter">
-                        <span class="testimonial__current">
-                            01
-                        </span>
-                        <span class="testimonial__divider">
-                            /
-                        </span>
-                        <span class="testimonial__total">
-                            03
-                        </span>
-                    </div>
-                    <button class="testimonial__btn testimonial__btn--right">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                    </button>
-                </div>
+            <div class="testimonial__overlay testimonial__overlay--bottom">
+                &nbsp;
             </div>
         </div>
     </section>
@@ -387,55 +319,6 @@
             &nbsp;
         </div>
     </section>
-    <script>
-        const slidesContainer = document.querySelector(".testimonial");
-        const slides = document.querySelectorAll(".testimonial__content");
-        const nextBtn = document.querySelector(".testimonial__btn--right");
-        const prevBtn = document.querySelector(".testimonial__btn--left");
-        const currentSlideEl = document.querySelector(".testimonial__current");
-        const totalSlide = document.querySelector(".testimonial__total");
-
-        let currentSlide = 0;
-        const maxSlide = slides.length;
-
-        currentSlideEl.textContent = `0${currentSlide + 1}`;
-        totalSlide.textContent = `0${maxSlide}`;
-
-        console.log(maxSlide);
-
-        const gotoSlide = function(slide) {
-            slides.forEach(function(s, i) {
-                s.classList.add("hidden");
-            });
-            slides[slide].classList.remove("hidden");
-        }
-
-        const nextSlide = function () {
-            if(currentSlide === maxSlide - 1) {
-                currentSlide = 0;
-            } else {
-                currentSlide++;
-            }
-            currentSlideEl.textContent = `0${currentSlide + 1}`;
-            gotoSlide(currentSlide)
-        }
-
-        const prevSlide = function() {
-            if(currentSlide === 0) {
-                currentSlide = maxSlide - 1;
-            } else {
-                currentSlide--;
-            }
-            currentSlideEl.textContent = `0${currentSlide + 1}`;
-            gotoSlide(currentSlide)
-        }
-
-
-        nextBtn.addEventListener("click",nextSlide);
-        prevBtn.addEventListener("click",prevSlide);
-
-        gotoSlide(0);
-    </script>
 <?php
     include "includes/posts.php";
     include "includes/interested-in.php";
