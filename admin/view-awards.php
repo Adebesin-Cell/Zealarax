@@ -47,7 +47,7 @@ include "includes/sidebar.php";
 										<td>1</td>
                                         <td>Frontend Guru</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <button class="btn btn--inline btn-success" data-toggle="modal" data-target=".bs-example-modal-center">Edit</button>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -60,4 +60,32 @@ include "includes/sidebar.php";
 <?php
 include 'includes/footer.php';
 ?>
-
+<!-- Modal -->
+<div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mt-0">Edit Award</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label  class="mb-3"> Award Name</label>
+                                <input type="text" class="form-control" placeholder=" Award Name" name=" Award Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-inline btn-success">Submit</button>
+                            <button class="btn btn-inline btn-secondary" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

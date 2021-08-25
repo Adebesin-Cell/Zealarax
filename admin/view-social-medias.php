@@ -92,7 +92,8 @@ include 'includes/footer.php';
                     </div>
                     <div class="row">
                         <div class="col-md-3">
-                            <button class="btn btn-inline btn-success">Update Social Media</button>
+                            <button class="btn btn-inline btn-success">Submit</button>
+                            <button class="btn btn-inline btn-secondary" data-dismiss="modal" aria-hidden="true">Cancel</button>
                         </div>
                     </div>
                 </form>

@@ -49,7 +49,7 @@ include "includes/sidebar.php";
                                         <td>Frontend</td>
                                         <td>HTML</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                             <button class="btn btn--inline btn-success" data-toggle="modal" data-target=".bs-example-modal-center">Edit</button>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -63,3 +63,44 @@ include "includes/sidebar.php";
 include 'includes/footer.php';
 ?>
 
+<!-- Modal -->
+<div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title mt-0">Edit Stack</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="mb-3">Language Category</label>
+                                <select name="Language Category" class="form-control">
+                                    <option value="0">Frontend</option>
+                                    <option value="1">Backend</option>
+                                    <option value="2">Cloud & Devops</option>
+                                    <option value="3">Mobile</option>
+                                    <option value="4">E Commerce</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label  class="mb-3"> Language Title</label>
+                                <input type="text" class="form-control" placeholder="Language Title" name="Language Title">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button class="btn btn-inline btn-success">Submit</button>
+                            <button class="btn btn-inline btn-secondary" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -51,7 +51,7 @@ include "includes/sidebar.php";
                                         <td>Design</td>
                                         <td style="width:300px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officiis veniam vitae. Ab voluptatum dolorum in, nemo nisi voluptates optio ex ut repellat! Itaque rerum tenetur, voluptates non voluptas ipsum asperiores voluptatibus molestiae excepturi blanditiis officiis temporibus reprehenderit! Doloremque, facere placeat necessitatibus doloribus dolor quidem hic aspernatur laborum non earum.</td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-expertise.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
