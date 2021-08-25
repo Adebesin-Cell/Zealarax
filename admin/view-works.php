@@ -55,7 +55,7 @@ include "includes/sidebar.php";
                                         almost fun time-tracking
                                         app for Android and iOS </td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-work.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -68,7 +68,7 @@ include "includes/sidebar.php";
                                         almost fun time-tracking
                                         app for Android and iOS </td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-work.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>
@@ -81,7 +81,7 @@ include "includes/sidebar.php";
                                         almost fun time-tracking
                                         app for Android and iOS </td>
                                         <td>
-                                            <button class="btn btn--inline btn-success">Edit</button>
+                                            <a href="edit-work.php" class="btn btn--inline btn-success">Edit</a>
                                             <button class="btn btn--inline btn-danger">Delete</button>
                                         </td>
 									</tr>

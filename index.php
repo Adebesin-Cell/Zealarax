@@ -262,8 +262,80 @@
             &nbsp;
         </div>
         <div class="testimonial">
+<<<<<<< HEAD
             <div class="testimonial__overlay testimonial__overlay--top">
                 &nbsp;
+=======
+            <div class="testimonial__wrapper">
+                <div class="testimonial__content testimonial__content--1">
+                    <div class="container">
+                        <div class="testimonial__item">
+                            <p class="testimonial__text testimonial__text--purple">
+                                Zealarax technologies has the best services
+                                in my encounters with different developers
+                                around the globe, fast and efficient tech guys!
+                            </p>
+                            <h3 class="testimonial__name testimonial__name--purple">
+                                Temidayo Avin 1
+                            </h3>
+                            <p class="testimonial__sub__text testimonial__sub__text--purple">
+                                Brand Strategist - Alvin Imaginations Studio
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__content testimonial__content--2">
+                    <div class="container">
+                        <div class="testimonial__item">
+                            <p class="testimonial__text testimonial__text--purple">
+                                Zealarax technologies has the best services
+                                in my encounters with different developers
+                                around the globe, fast and efficient tech guys!
+                            </p>
+                            <h3 class="testimonial__name testimonial__name--purple">
+                                Temidayo Avin 2
+                            </h3>
+                            <p class="testimonial__sub__text testimonial__sub__text--purple">
+                                Brand Strategist - Alvin Imaginations Studio
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__content testimonial__content--3">
+                    <div class="container">
+                        <div class="testimonial__item">
+                            <p class="testimonial__text testimonial__text--purple">
+                                Zealarax technologies has the best services
+                                in my encounters with different developers
+                                around the globe, fast and efficient tech guys!
+                            </p>
+                            <h3 class="testimonial__name testimonial__name--purple">
+                                Temidayo Avin 3
+                            </h3>
+                            <p class="testimonial__sub__text testimonial__sub__text--purple">
+                                Brand Strategist - Alvin Imaginations Studio
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial__content testimonial__content--4">
+                    <div class="container">
+                        <div class="testimonial__item">
+                            <p class="testimonial__text testimonial__text--purple">
+                                Zealarax technologies has the best services
+                                in my encounters with different developers
+                                around the globe, fast and efficient tech guys!
+                            </p>
+                            <h3 class="testimonial__name testimonial__name--purple">
+                                Temidayo Avin 4
+                            </h3>
+                            <p class="testimonial__sub__text testimonial__sub__text--purple">
+                                Brand Strategist - Alvin Imaginations Studio
+                            </p>
+                        </div>
+                    </div>
+                </div>
+>>>>>>> 3d36e1477a57d4f415449fda7ab36cf1878d72f1
             </div>
             <div class="testimonial__content">
                 <div class="container">
@@ -319,6 +391,56 @@
             &nbsp;
         </div>
     </section>
+<<<<<<< HEAD
+=======
+    <script>
+        const slidesContainer = document.querySelector(".testimonial");
+        const slides = document.querySelectorAll(".testimonial__content");
+        const nextBtn = document.querySelector(".testimonial__btn--right");
+        const prevBtn = document.querySelector(".testimonial__btn--left");
+        const currentSlideEl = document.querySelector(".testimonial__current");
+        const totalSlide = document.querySelector(".testimonial__total");
+
+        let currentSlide = 0;
+        const maxSlide = slides.length;
+
+        currentSlideEl.textContent = `0${currentSlide + 1}`;
+        totalSlide.textContent = `0${maxSlide}`;
+
+        const gotoSlide = function(slide) {
+            slides.forEach(function(s, i) {
+                s.classList.add("hidden");
+            });
+            slides[slide].classList.remove("hidden");
+        }
+
+        const nextSlide = function () {
+            if(currentSlide === maxSlide - 1) {
+                currentSlide = 0;
+            } else {
+                currentSlide++;
+            }
+            currentSlideEl.textContent = `0${currentSlide + 1}`;
+            gotoSlide(currentSlide)
+        }
+
+        const prevSlide = function() {
+            if(currentSlide === 0) {
+                currentSlide = maxSlide - 1;
+            } else {
+                currentSlide--;
+            }
+            currentSlideEl.textContent = `0${currentSlide + 1}`;
+            gotoSlide(currentSlide)
+        }
+
+
+        nextBtn.addEventListener("click",nextSlide);
+        prevBtn.addEventListener("click",prevSlide);
+
+        gotoSlide(0);
+    </script>
+>>>>>>> 3d36e1477a57d4f415449fda7ab36cf1878d72f1
 <?php
     include "includes/posts.php";
     include "includes/interested-in.php";

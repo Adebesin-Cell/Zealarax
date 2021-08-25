@@ -216,6 +216,7 @@
         @media only screen and (max-width: 1024px) {
           font-size: var(--size-m);
           line-height: 18px;
+          padding-bottom: 5px;
         }
         @media only screen and (max-width: 600px) {
           margin-top: 0;
@@ -256,6 +257,9 @@
       }
       @media only screen and (max-width: 600px) {
         height: 300px;
+      }
+      @media only screen and (max-width: 320px) {
+        height: 350px;
       }
     }
     &__content {

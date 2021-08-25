@@ -22,8 +22,8 @@ include "includes/sidebar.php";
             <!-- end page title -->
             <div class="row mb-3">
                 <div class="col-md-12 d-flex justify-content-end">
-                    <a href="view-works.php" class="btn btn--inline btn-info align-left">
-                        View Works
+                    <a href="add-work.php" class="btn btn--inline btn-info align-left">
+                        Add work
                     </a>
                 </div>
             </div>
@@ -31,7 +31,7 @@ include "includes/sidebar.php";
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-body">
-                            <h2 class="mb-4">Add Work</h4>
+                            <h2 class="mb-4">Edit Work</h4>
                             <form action="#">
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -68,10 +68,10 @@ include "includes/sidebar.php";
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <button class="btn btn-inline btn-success">Add Work</button>
+                                        <button class="btn btn-inline btn-success">Submit</button>
+                                        <button class="btn btn-inline btn-secondary">Cancel</button>
                                     </div>
                                 </div>
-                                
                             </form>
                         </div>
                     </div>

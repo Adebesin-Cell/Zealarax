@@ -826,6 +826,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .menu__contact {
+    padding-right: 30px;
+  }
+}
+
 .menu__contact__wrapper {
   display: flex;
   justify-content: space-between;
@@ -868,6 +874,12 @@ body {
   .menu__contact .menu__link, .menu__contact .menu__telephone a, .menu__contact .menu__email a {
     font-size: var(--size-xs);
     line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .menu__contact .menu__link, .menu__contact .menu__telephone a, .menu__contact .menu__email a {
+    font-size: calc(var(--size-xs) - 2px);
   }
 }
 
@@ -1573,6 +1585,7 @@ body {
   .interested-in__header {
     font-size: 40px;
     line-height: 40px;
+    padding-right: 0;
   }
 }
 
@@ -3427,6 +3440,13 @@ body {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-career-banner__image {
+    height: 330px;
+    object-fit: cover;
+  }
+}
+
 .section-career-type {
   padding-top: 15.5vh;
   padding-left: 0;
@@ -3654,6 +3674,13 @@ body {
 .section-professional-testimoanl .professional-testimonial__image {
   display: block;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-professional-testimoanl .professional-testimonial__image {
+    height: 330px;
+    object-fit: cover;
+  }
 }
 
 .section-professional-testimoanl .professional-testimonial__image__box {
@@ -5178,6 +5205,7 @@ input:internal-autofill-selected {
   .section-testimonial .testimonial__item .testimonial__name {
     font-size: var(--size-m);
     line-height: 18px;
+    padding-bottom: 5px;
   }
 }
 
@@ -5212,6 +5240,90 @@ input:internal-autofill-selected {
   color: var(--testimonial-purple);
 }
 
+<<<<<<< HEAD
+=======
+.section-testimonial .testimonial__wrapper {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  position: relative;
+  height: 500px;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-testimonial .testimonial__wrapper {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-testimonial .testimonial__wrapper {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-testimonial .testimonial__wrapper {
+    height: 350px;
+  }
+}
+
+.section-testimonial .testimonial__content {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-testimonial .testimonial__content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.section-testimonial .testimonial__controls {
+  max-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-testimonial .testimonial__counter {
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 21px;
+  color: var(--black);
+}
+
+.section-testimonial .testimonial__btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.section-testimonial .testimonial__btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.section-testimonial .testimonial__btn svg polyline {
+  stroke: var(--black);
+}
+
+.section-testimonial .testimonial__btn svg line {
+  stroke: var(--black);
+}
+
+>>>>>>> 3d36e1477a57d4f415449fda7ab36cf1878d72f1
 .section-better-products {
   padding-top: 15.5vh;
   padding-left: 0;
@@ -5788,6 +5900,11 @@ input:internal-autofill-selected {
 
 .check__label .checkbox .icon {
   color: var(--dark);
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .check__label .checkbox .icon svg {
@@ -6463,6 +6580,13 @@ input:internal-autofill-selected {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-what-we-do-banner .what-we-do-banner__image {
+    height: 330px;
+    object-fit: cover;
+  }
+}
+
 .section-expertise {
   padding-top: 15.5vh;
   padding-left: 0;
@@ -6577,6 +6701,13 @@ input:internal-autofill-selected {
 .section-expertise-banner .expertise-banner__image {
   display: block;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-expertise-banner .expertise-banner__image {
+    height: 330px;
+    object-fit: cover;
+  }
 }
 
 .section-ceo {
@@ -6785,6 +6916,7 @@ input:internal-autofill-selected {
 .section-our-stacks .our-stacks__item__content span {
   position: relative;
   padding-bottom: 5px;
+  display: inline-block;
 }
 
 .section-our-stacks .our-stacks__item__content span::before {
