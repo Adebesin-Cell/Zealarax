@@ -25,7 +25,8 @@
                                 </div>
                                 <div class="posts__card__body">
                                     <p class="posts__card__date">
-                                        Develompent  June 01, 2021
+                                        <span class="post__type">Develompent</span>
+                                        <span class="post__date">June 01, 2021</span>
                                     </p>
                                     <p class="posts__card__paragraph">
                                         Choosing the right features
@@ -41,7 +42,8 @@
                                 </div>
                                 <div class="posts__card__body">
                                     <p class="posts__card__date">
-                                        Develompent  June 01, 2021
+                                        <span class="post__type">Develompent</span>
+                                        <span class="post__date">June 01, 2021</span>
                                     </p>
                                     <p class="posts__card__paragraph">
                                         Choosing the right features

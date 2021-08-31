@@ -36,6 +36,214 @@
   background: var(--dark);
 }
 
+.work {
+  &__card {
+    display: flex;
+    @media only screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+  &__header {
+    font-family: var(--family--2);
+    font-size: calc(2 * var(--size-2xl) - var(--size-m));
+    font-style: normal;
+    font-weight: var(--weight-md);
+    line-height: 80px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    color: var(--text-green);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: var(--span-2xl);
+    @media only screen and (max-width: 1200px) {
+      font-size: calc(1.5 * var(--size-2xl));
+    }
+    @media only screen and (max-width: 600px) {
+      justify-content: center;
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+  &__text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-bottom: var(--span-2xl);
+
+    &__link {
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      svg {
+        width: 20px;
+        height: 16px;
+      }
+      span {
+        display: inline-block;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: var(--span-l);
+      margin-bottom: var(--span-xl);
+      padding-bottom: 0;
+    }
+    &--flex-between {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &--flex-end {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+  &__details {
+    max-width: 480px;
+  }
+  &__image__box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+    &--2 {
+      justify-content: flex-start;
+    }
+
+    &:nth-child(even) {
+      @media only screen and (max-width: 600px) {
+        order: -1;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+      justify-content: flex-start;
+    }
+  }
+  &__image {
+    max-width: 100%;
+    display: block;
+    width: 480px;
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  &__number {
+    font-family: var(--family--2);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-xsm);
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 0.3s;
+    &--white {
+      color: var(--white);
+    }
+    &--green {
+      color: var(--text-green);
+    }
+    &--purple {
+      color: var(--purple);
+    }
+  }
+  &__info {
+    margin-top: var(--span-l);
+    font-family: var(--family--2);
+    font-size: calc(var(--size-2xl) - 8px);
+    font-weight: var(--weight-xsm);
+    line-height: 48px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    @media only screen and (max-width: 1200px) {
+      font-size: 36px;
+      line-height: 46px;
+    }
+    @media only screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: calc(var(--size-m) + 2px);
+      line-height: 24px;
+    }
+    &--white {
+      color: var(--white);
+    }
+    &--green {
+      color: var(--text-green);
+    }
+    &--purple {
+      color: var(--purple);
+    }
+  }
+
+  &__description {
+    margin-top: var(--span-l);
+    font-family: var(--family--2);
+    font-size: 14px;
+    font-weight: var(--weight-xsm);
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    transform: translateX(0);
+    transition: all 0.3s;
+    span {
+      font-weight: var(--weight-xlg);
+    }
+    &--white {
+      color: var(--white);
+    }
+    &--green {
+      color: var(--text-green);
+    }
+    &--purple {
+      color: var(--purple);
+    }
+  }
+
+  &__text__link:hover &__number {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+
+  &__text__link:hover &__description {
+    transform: translateX(20px);
+  }
+
+  &__text__link:hover .icon__scale--hover {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+}
+.work__padding__left {
+  padding-right: var(--span-l);
+  display: flex;
+  align-items: flex-start;
+  @media only screen and (max-width: 600px) {
+    padding-right: 0;
+  }
+}
+.work__padding__right {
+  padding-left: var(--span-l);
+  display: flex;
+  align-items: flex-end;
+  @media only screen and (max-width: 600px) {
+    padding-left: 0;
+    align-items: initial;
+  }
+}
+
+.work__text__link:hover + .icon__box .icon__scale--hover {
+  transform: scale(1.5);
+  opacity: 0.5;
+}
+
 .section-what-we-do {
   @include sectionspace;
   .what-we-do {

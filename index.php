@@ -33,7 +33,7 @@
                 <div class="intro__image__box">
                     <!-- homepgae intro image starts here -->
                     <img src="assets/images/intro-hero.png" alt="welcome to zealarax" class="intro__image">
-                     <!-- homepgae intro image ends here -->
+                        <!-- homepgae intro image ends here -->
                 </div>
             </div>
         </div>
@@ -49,29 +49,34 @@
                     <div class="work__card">
                         <div class="work__text work__text--flex-end work__padding__left">
                             <div class="work__details">
+                                    <!-- Work link ( Link to the full view of work ) -->
                                 <a href="#" class="work__text__link">
+                                        <!-- Work index -->
                                     <p class="work__number work__number--white">
                                         01
                                     </p>
+                                        <!-- Work info = Work Description on admin  -->
                                     <p class="work__info work__info--white">
                                         Using flutter to build an
                                         almost fun time-tracking
                                         app for Android and iOS 
                                     </p>
+                                    <!-- Work description  = Work Type & Work Title on admin  -->
                                     <p class="work__description work__description--white">
+                                        <!-- Work type -->
                                         <span>
                                             Mobile Application
-                                        </span>  - Prunny
+                                        </span>
+                                            <!-- Work title -->
+                                            - Prunny
                                     </p>
-                                    <div class="icon__box mt-4">
-                                        <a href="#" class="icon__link">
-                                            <div class="icon__background icon__background--1">
-                                                <div class="icon__scale--hover icon__scale--hover--1">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <span class="icon__box mt-4">
+                                        <span class="icon__background icon__background--1">
+                                            <span class="icon__scale--hover icon__scale--hover--1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="268 112 412 256 268 400" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                                            </span>
+                                        </span>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -99,15 +104,13 @@
                                             Mobile Application
                                         </span>  - Prunny
                                     </p>
-                                    <div class="icon__box mt-4">
-                                        <a href="#" class="icon__link">
-                                            <div class="icon__background icon__background--2">
-                                                <div class="icon__scale--hover icon__scale--hover--2">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <span class="icon__box mt-4">
+                                        <span class="icon__background icon__background--2">
+                                            <span class="icon__scale--hover icon__scale--hover--2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                                            </span>
+                                        </span>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -129,15 +132,13 @@
                                             Mobile Application
                                         </span>  - Prunny
                                     </p>
-                                    <div class="icon__box mt-4">
-                                        <a href="#" class="icon__link">
-                                            <div class="icon__background icon__background--3">
-                                                <div class="icon__scale--hover icon__scale--hover--3">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <span class="icon__box mt-4">
+                                        <span class="icon__background icon__background--3">
+                                            <span class="icon__scale--hover icon__scale--hover--3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                                            </span>
+                                        </span>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -165,15 +166,13 @@
                                             Mobile Application
                                         </span>  - Prunny
                                     </p>
-                                    <div class="icon__box mt-4">
-                                        <a href="#" class="icon__link">
-                                            <div class="icon__background icon__background--4">
-                                                <div class="icon__scale--hover icon__scale--hover--4">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <span class="icon__box mt-4">
+                                        <span class="icon__background icon__background--4">
+                                            <span class="icon__scale--hover icon__scale--hover--4">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="268 112 412 256 268 400" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                                            </span>
+                                        </span>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -195,15 +194,13 @@
                                             Mobile Application
                                         </span>  - Prunny
                                     </p>
-                                    <div class="icon__box mt-4">
-                                        <a href="#" class="icon__link">
-                                            <div class="icon__background icon__background--5">
-                                                <div class="icon__scale--hover icon__scale--hover--5">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <span class="icon__box mt-4">
+                                        <span class="icon__background icon__background--5">
+                                            <span class="icon__scale--hover icon__scale--hover--5">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                                            </span>
+                                        </span>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -267,14 +264,17 @@
                     <div class="container">
                         <div class="testimonial__item">
                             <p class="testimonial__text testimonial__text--purple">
+                                <!-- Testimonial -->
                                 Zealarax technologies has the best services
                                 in my encounters with different developers
                                 around the globe, fast and efficient tech guys!
                             </p>
                             <h3 class="testimonial__name testimonial__name--purple">
+                                <!-- Testimonial Writer -->
                                 Temidayo Avin 1
                             </h3>
                             <p class="testimonial__sub__text testimonial__sub__text--purple">
+                                <!-- Testimonial Writer Title & Testimonial Company -->
                                 Brand Strategist - Alvin Imaginations Studio
                             </p>
                         </div>
@@ -335,7 +335,7 @@
             <div class="container">
                 <div class="testimonial__controls">
                     <button class="testimonial__btn testimonial__btn--left">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="244 400 100 256 244 112" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="120" y1="256" x2="412" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="244 400 100 256 244 112" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="120" y1="256" x2="412" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
                     </button>
                     <div class="testimonial__counter">
                         <span class="testimonial__current">
@@ -349,7 +349,7 @@
                         </span>
                     </div>
                     <button class="testimonial__btn testimonial__btn--right">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><polyline points="268 112 412 256 268 400" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/><line x1="392" y1="256" x2="100" y2="256" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"/></svg>
                     </button>
                 </div>
             </div>

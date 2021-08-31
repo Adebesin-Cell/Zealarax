@@ -1,14 +1,4 @@
 .icon {
-  &__link {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    svg {
-      width: 20px;
-      height: 16px;
-    }
-  }
-
   &__background {
     width: 40px;
     height: 40px;
@@ -52,12 +42,12 @@
     height: 40px;
     border-radius: 50%;
     transition: all 0.3s;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
   }
-  &__link:hover &__scale--hover {
+  /*  &__link:hover &__scale--hover {
     transform: scale(1.5);
     opacity: 0.5;
-  }
+  } */
 }
