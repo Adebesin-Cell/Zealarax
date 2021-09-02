@@ -21,7 +21,8 @@
         font-size: 24px;
         line-height: 34px;
       }
-      span {
+      span,
+      p {
         display: block;
       }
     }
@@ -87,6 +88,8 @@
         padding-top: 100px;
       }
     }
+
+    p,
     &__paragraph {
       font-family: var(--family--2);
       font-size: calc(var(--size-m) + 4px);
@@ -100,25 +103,33 @@
         font-size: 18px;
         line-height: 24px;
       }
+
       @media only screen and (max-width: 1024px) {
         font-size: 18px;
         line-height: 24px;
       }
+
       @media only screen and (max-width: 768px) {
         font-size: var(--size-m);
         line-height: 24px;
       }
+
       @media only screen and (max-width: 600px) {
         font-size: var(--size-s);
         line-height: 20px;
       }
-      span {
+
+      span,
+      p {
         display: block;
         margin-bottom: 20px;
       }
+
       &-box {
         padding-top: 90px;
       }
+
+      a,
       .external-link {
         text-decoration: none;
         position: relative;

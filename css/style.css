@@ -2153,12 +2153,19 @@ body {
   max-width: 100%;
 }
 
-.section-activities .activities__card__image {
+.section-activities .activities__card__image,
+.section-activities .activities__card img {
   display: block;
   width: 100%;
 }
 
-.section-activities .activities__card__header {
+.section-activities .activities__card__header,
+.section-activities .activities__card h1,
+.section-activities .activities__card h2,
+.section-activities .activities__card h3,
+.section-activities .activities__card h4,
+.section-activities .activities__card h5,
+.section-activities .activities__card h6 {
   font-family: var(--family--2);
   font-size: var(--size-l);
   font-weight: var(--weight-md);
@@ -2170,7 +2177,13 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  .section-activities .activities__card__header {
+  .section-activities .activities__card__header,
+  .section-activities .activities__card h1,
+  .section-activities .activities__card h2,
+  .section-activities .activities__card h3,
+  .section-activities .activities__card h4,
+  .section-activities .activities__card h5,
+  .section-activities .activities__card h6 {
     font-size: 20px;
     line-height: 30px;
   }
@@ -2184,7 +2197,9 @@ body {
   max-width: 480px;
 }
 
-.section-activities .activities__card__paragraph {
+.section-activities .activities__card__paragraph,
+.section-activities .activities__card p,
+.section-activities .activities__card span {
   font-family: var(--family--2);
   font-size: calc(var(--size-m) + 2px);
   font-weight: var(--weight-md);
@@ -2195,14 +2210,18 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  .section-activities .activities__card__paragraph {
+  .section-activities .activities__card__paragraph,
+  .section-activities .activities__card p,
+  .section-activities .activities__card span {
     font-size: var(--size-m);
     line-height: 24px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .section-activities .activities__card__paragraph {
+  .section-activities .activities__card__paragraph,
+  .section-activities .activities__card p,
+  .section-activities .activities__card span {
     font-size: var(--size-s);
     line-height: 21px;
   }
@@ -2524,14 +2543,16 @@ body {
   }
 }
 
-.section-awards .awards__item span {
+.section-awards .awards__item span,
+.section-awards .awards__item p {
   position: relative;
   padding-bottom: var(--span-xs);
   display: block;
   width: 75%;
 }
 
-.section-awards .awards__item span::before {
+.section-awards .awards__item span::before,
+.section-awards .awards__item p::before {
   content: "";
   display: block;
   position: absolute;
@@ -2545,13 +2566,15 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  .section-awards .awards__item span {
+  .section-awards .awards__item span,
+  .section-awards .awards__item p {
     width: 80%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .section-awards .awards__item span {
+  .section-awards .awards__item span,
+  .section-awards .awards__item p {
     width: 90%;
   }
 }
@@ -6320,7 +6343,8 @@ input:internal-autofill-selected {
   }
 }
 
-.section-view-blog .view-blog__header span {
+.section-view-blog .view-blog__header span,
+.section-view-blog .view-blog__header p {
   display: block;
 }
 
@@ -6374,7 +6398,7 @@ input:internal-autofill-selected {
   padding-top: 100px;
 }
 
-.section-view-blog .view-blog__paragraph {
+.section-view-blog .view-blog p, .section-view-blog .view-blog__paragraph {
   font-family: var(--family--2);
   font-size: calc(var(--size-m) + 4px);
   font-style: normal;
@@ -6386,42 +6410,46 @@ input:internal-autofill-selected {
 }
 
 @media only screen and (max-width: 1200px) {
-  .section-view-blog .view-blog__paragraph {
+  .section-view-blog .view-blog p, .section-view-blog .view-blog__paragraph {
     font-size: 18px;
     line-height: 24px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .section-view-blog .view-blog__paragraph {
+  .section-view-blog .view-blog p, .section-view-blog .view-blog__paragraph {
     font-size: 18px;
     line-height: 24px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .section-view-blog .view-blog__paragraph {
+  .section-view-blog .view-blog p, .section-view-blog .view-blog__paragraph {
     font-size: var(--size-m);
     line-height: 24px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .section-view-blog .view-blog__paragraph {
+  .section-view-blog .view-blog p, .section-view-blog .view-blog__paragraph {
     font-size: var(--size-s);
     line-height: 20px;
   }
 }
 
-.section-view-blog .view-blog__paragraph span {
+.section-view-blog .view-blog p span,
+.section-view-blog .view-blog p p, .section-view-blog .view-blog__paragraph span,
+.section-view-blog .view-blog__paragraph p {
   display: block;
   margin-bottom: 20px;
 }
 
-.section-view-blog .view-blog__paragraph-box {
+.section-view-blog .view-blog p-box, .section-view-blog .view-blog__paragraph-box {
   padding-top: 90px;
 }
 
+.section-view-blog .view-blog p a,
+.section-view-blog .view-blog p .external-link, .section-view-blog .view-blog__paragraph a,
 .section-view-blog .view-blog__paragraph .external-link {
   text-decoration: none;
   position: relative;
@@ -6431,6 +6459,8 @@ input:internal-autofill-selected {
   color: var(--white);
 }
 
+.section-view-blog .view-blog p a::before,
+.section-view-blog .view-blog p .external-link::before, .section-view-blog .view-blog__paragraph a::before,
 .section-view-blog .view-blog__paragraph .external-link::before {
   content: "";
   display: block;
@@ -6444,6 +6474,8 @@ input:internal-autofill-selected {
   background-color: var(--white);
 }
 
+.section-view-blog .view-blog p a::before,
+.section-view-blog .view-blog p .external-link::before, .section-view-blog .view-blog__paragraph a::before,
 .section-view-blog .view-blog__paragraph .external-link::before {
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transform: scaleX(1);
@@ -6451,12 +6483,16 @@ input:internal-autofill-selected {
   transition: transform 0.35s;
 }
 
+.section-view-blog .view-blog p a:hover::before,
+.section-view-blog .view-blog p .external-link:hover::before, .section-view-blog .view-blog__paragraph a:hover::before,
 .section-view-blog .view-blog__paragraph .external-link:hover::before {
   transform: scaleX(0);
   transform-origin: 100% 50%;
   transition-timing-function: ease;
 }
 
+.section-view-blog .view-blog p a span,
+.section-view-blog .view-blog p .external-link span, .section-view-blog .view-blog__paragraph a span,
 .section-view-blog .view-blog__paragraph .external-link span {
   display: inline-block;
   margin-bottom: 0;

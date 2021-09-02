@@ -206,11 +206,19 @@
     }
     &__card {
       // padding-right: 60px;
-      &__image {
+      &__image,
+      img {
         display: block;
         width: 100%;
       }
-      &__header {
+
+      &__header,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         font-family: var(--family--2);
         font-size: var(--size-l);
         font-weight: var(--weight-md);
@@ -224,13 +232,18 @@
           line-height: 30px;
         }
       }
+
       &__body {
         padding-top: 16px;
       }
+
       &__container {
         max-width: 480px;
       }
-      &__paragraph {
+
+      &__paragraph,
+      p,
+      span {
         font-family: var(--family--2);
         font-size: calc(var(--size-m) + 2px);
         font-weight: var(--weight-md);
@@ -461,7 +474,8 @@
         font-size: var(--size-xs);
         line-height: 21px;
       }
-      span {
+      span,
+      p {
         position: relative;
         padding-bottom: var(--span-xs);
         @include before__underline(--white);
