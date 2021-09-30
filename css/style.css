@@ -506,13 +506,6 @@ body {
   transition-timing-function: ease;
 }
 
-.icon {
-  /*  &__link:hover &__scale--hover {
-    transform: scale(1.5);
-    opacity: 0.5;
-  } */
-}
-
 .icon__background {
   width: 40px;
   height: 40px;
