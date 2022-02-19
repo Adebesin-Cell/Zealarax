@@ -1,91 +1,65 @@
 <?php 
-include "includes/header.php";
-include "includes/sidebar.php";
+    include "includes/header.php";
+    include "includes/sidebar.php";
 ?>
-<div class="main-content">
-
-    <div class="page-content">
-        <div class="container-fluid">
-
-            <!-- start page title -->
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <div class="page-title-box">
-                        <h4 class="font-size-18">Awards</h4>
-                        <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">About</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Awards</a></li>
-                        </ol>
+    <div class="content-page">
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row page-title align-items-center">
+                    <div class="col-sm-4 col-xl-6">
+                        <h4 class="mb-1 mt-0">Awards</h4>
+                    </div>
+                    <div class="col-sm-8 col-xl-6 d-flex justify-content-end">
+                        <a href="add-awards.php" class="d-flex align-item-center btn btn-primary">
+                            <i class="uil-plus"></i>
+                            <span class="ml-1">
+                                Add Awards
+                            </span>
+                        </a>
                     </div>
                 </div>
-            </div>     
-            <!-- end page title -->
-            <div class="row mb-3">
-                <div class="col-md-12 d-flex justify-content-end">
-                    <a href="add-awards.php" class="btn btn--inline btn-info align-left">
-                        Add Award
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-				<div class="col-md-12">
-					<div class="card">
-						<div class="card-header pb-0">
-							<h2 class="mb-3">Awards</h3>
-						</div>
-						<div class="card-body">
-							<table class="table" id="datatable">
-								<thead>
-									<tr>
-										<th>S/N</th>
-										<th>Award Title</th>
-                                        <th>Actions</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1</td>
-                                        <td>Frontend Guru</td>
-                                        <td>
-                                            <button class="btn btn--inline btn-success" data-toggle="modal" data-target=".bs-example-modal-center">Edit</button>
-                                            <button class="btn btn--inline btn-danger">Delete</button>
-                                        </td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-<?php
-include 'includes/footer.php';
-?>
-<!-- Modal -->
-<div class="modal fade bs-example-modal-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title mt-0">Edit Award</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            </div>
-            <div class="modal-body">
-                <form action="#">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label  class="mb-3"> Award Name</label>
-                                <input type="text" class="form-control" placeholder=" Award Name" name=" Award Name">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="header-title mt-0 mb-1">View Awards</h4>
+                                <table
+                                id="basic-datatable"
+                                class="table w-100 dt-responsive wrap"
+                                >
+                                <thead>
+                                    <tr>
+                                    <th>S/N</th>
+                                    <th>title</th>
+                                    <th>Description</th>
+                                    <th>Picture</th>
+                                    <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                    <td>1</td>
+                                    <td>Lorem, ipsum dolor.</td>
+                                    <td>Lorem ipsum dolor ... <a href="" class="">Read more</a></td>
+                                    <td>
+                                        <img src="./assets/images/flags/french.jpg" alt="" class="d-block img-fluid">
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-success">
+                                            <i class="uil uil-edit"></i>
+                                        </button>
+                                        <button class="btn btn-danger">
+                                            <i class="uil uil-exit"></i>
+                                        </button>
+                                    </td>
+                                    </tr>
+
+                                </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <button class="btn btn-inline btn-success">Submit</button>
-                            <button class="btn btn-inline btn-secondary" data-dismiss="modal" aria-hidden="true">Cancel</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+                </div>
+<?php
+    include "includes/footer.php";
+?>

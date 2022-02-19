@@ -1,72 +1,57 @@
 <?php 
-include "includes/header.php";
-include "includes/sidebar.php";
+    include "includes/header.php";
+    include "includes/sidebar.php";
 ?>
-<div class="main-content">
-
-    <div class="page-content">
-        <div class="container-fluid">
-
-            <!-- start page title -->
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <div class="page-title-box">
-                        <h4 class="font-size-18">Awards</h4>
-                        <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">About</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Awards</a></li>
-                        </ol>
+    <div class="content-page">
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row page-title align-items-center">
+                    <div class="col-sm-4 col-xl-6">
+                        <h4 class="mb-1 mt-0">Awards</h4>
+                    </div>
+                    <div class="col-sm-8 col-xl-6 d-flex justify-content-end">
+                        <a href="view-awards.php" class="btn btn-success">
+                            View Awards
+                        </a>
                     </div>
                 </div>
-            </div>     
-            <!-- end page title -->
-            <div class="row mb-3">
-                <div class="col-md-12 d-flex justify-content-end">
-                    <a href="view-awards.php" class="btn btn--inline btn-info align-left">
-                        View Awards
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card">
+                <div class="row justify-content-center">
+                    <div class="card w-80">
                         <div class="card-body">
-                            <h2 class="mb-4">Add Award</h4>
-                            <form action="#">
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <div class="form-group">
-                                            <label class="mb-2">Award Title</label>
-                                            <input type="text" name="Award Title" class="form-control" placeholder="Award Title">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <div class="form-group">
-                                            <label class="mb-2">Award Banner</label>
-                                            <div class="custom-file">
-                                                <input type="file" name="Award Banner" class="custom-file-input" placeholder="Award Banner" id="customFile">
-                                                <label class="form-control custom-file-label" id="customFile">Award Banner</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <div class="form-group">
-                                            <label class="mb-2">Award Description</label>
-                                            <textarea name="Award Description" cols="30" rows="10" class="form-control textarea"></textarea>
-                                        </div>
-                                    </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="title" class="d-block mb-2 col-form-label">
+                                        Title
+                                    </label>
+                                    <input type="text" class="d-block form-control" name="title">
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <button class="btn btn-inline btn-success">Add Award </button>
-                                    </div>
+                                <div class="col-md-12 mb-3">
+                                    <label for="featured_image" class="d-block mb-2 col-form-label">
+                                        Featured Image
+                                    </label>
+                                    <form action="/" method="post" class="dropzone" id="myAwesomeDropzone">
+                                        <div class="fallback">
+                                            <input name="file" type="file" multiple />
+                                        </div>
+                                        <div class="dz-message needsclick">
+                                            <i class="h1 text-muted  uil-cloud-upload"></i>
+                                            <h3>Drop file here or click to upload.</h3>
+                                        </div>
+                                    </form>
                                 </div>
-                            </form>
+                                <div class="col-md-12 mb-3">
+                                    <label for="desc" class="d-block mb-2 col-form-label">
+                                        Description
+                                    </label>
+                                    <textarea name="description" class="d-block form-control" id="desc" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-primary d-block w-25">Submit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 <?php
-include 'includes/footer.php';
+    include "includes/footer.php";
 ?>
-

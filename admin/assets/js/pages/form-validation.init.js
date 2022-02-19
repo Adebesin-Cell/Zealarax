@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".custom-validation").parsley()});
+$(document).ready(function(){$(".parsley-examples").parsley()});
